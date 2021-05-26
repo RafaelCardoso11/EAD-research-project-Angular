@@ -9,6 +9,7 @@ Pandemia do COVID-19.
 # Participantes
 ### Rafael Cardoso
 [Git Hub](https://github.com/RafaelCardoso11)
+
 [Linkedin](https://www.linkedin.com/in/rafaelcardoso11/)
 
 ### Erine Aguiar
@@ -17,6 +18,7 @@ Pandemia do COVID-19.
 ### Hévine Lópes
 
 <br>
+
 # Frontend
 
 Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) CLI versão 11.2.12.

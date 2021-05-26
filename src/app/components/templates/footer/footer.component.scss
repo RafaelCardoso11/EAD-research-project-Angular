@@ -1,0 +1,13 @@
+footer{
+    height: 200px;
+   
+    .subcontainer-footer{
+        background:#86a3fa;
+        height: 100px;
+        width: 100%;
+    }
+    .container-footer{
+        height: 100%;
+        background-image: linear-gradient(-45deg, rgb(191, 206, 245), #86a3fa);
+    }
+}

@@ -1,6 +1,6 @@
 
-import { TeacherFormComponent } from './components/templates/teacher-form/teacher-form.component';
-import { StudentFormComponent } from './components/templates/student-form/student-form.component';
+import { TeacherFormComponent } from './components/templates/Forms/teacher-form/teacher-form.component';
+import { StudentFormComponent } from './components/templates/Forms/student-form/student-form.component';
 import { PageHomeComponent } from './components/page-home/page-home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -13,11 +13,11 @@ const routes: Routes = [
   },
   {
     path: "formulario/professor",
-    component: StudentFormComponent
+    component: TeacherFormComponent
   }
   ,{
     path: "formulario/aluno",
-    component: TeacherFormComponent
+    component: StudentFormComponent
    },
   {
     path: "formulario/finish/form",

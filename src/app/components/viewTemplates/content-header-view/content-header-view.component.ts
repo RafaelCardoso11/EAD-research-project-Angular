@@ -1,4 +1,4 @@
-import { Usuario } from './../../templates/usuario-form-model';
+import { Usuario } from '../../templates/Forms/usuario-form-model';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormCreateService } from 'src/app/services/form.service';

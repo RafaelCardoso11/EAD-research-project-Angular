@@ -7,6 +7,9 @@
 # Only exists if Bazel was run
 /bazel-out
 
+# .env
+/backend/IA_FILTER_DICI/.env
+
 # dependencies
 /node_modules
 /backend/node_modules

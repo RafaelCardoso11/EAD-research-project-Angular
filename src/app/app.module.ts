@@ -13,7 +13,6 @@ import { StudentFormComponent } from './components/templates/Forms/student-form/
 import { CommentsUserBannerComponent } from './components/templates/comments-user-banner/comments-user-banner.component';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
-import { SidenavComponent } from './panel-admin-dashboard/components/view/sidenav/sidenav.component';
 import { ViewComponent } from './panel-admin-dashboard/components/view/view.component';
 
 
@@ -29,7 +28,6 @@ import { ViewComponent } from './panel-admin-dashboard/components/view/view.comp
     TeacherFormComponent,
     StudentFormComponent,
     CommentsUserBannerComponent,
-    SidenavComponent,
     ViewComponent
   ],
   imports: [

@@ -1,8 +1,11 @@
+
+
 import { Usuario } from '../components/templates/Forms/usuario-form-model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-const { baseUrl } = require('./.env')
+
+const baseUrl="http://localhost:3001/usuarios";
 
 @Injectable({
   providedIn: 'root'

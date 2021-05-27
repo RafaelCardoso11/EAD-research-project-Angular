@@ -21,10 +21,22 @@ Pandemia do COVID-19.
 
 # Frontend
 
-Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) CLI versão 11.2.12.
+Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli)versão 11.2.12.
 
-## Development server
+## Artificial intelligence
+    O projeto utiliza uma IA(inteligencia artificial) responsavel por gerenciar e montar gráficos com base nos dados recolhidos por formulários. A IA armazena e processa os dados de acordo com seus padrôes pré-estabelecidos.
 
-Para inicializar o projeto, installe o [NPM](https://www.npmjs.com/), e rode o comando: `npm start` em seu terminal.
+###  Documentação
 
-Já no seu navegador, entre na rede local [localhost:4200](http://localhost:4200/)
+
+## Development server and install
+
+1. Para inicializar o projeto, installe o [NPM](https://www.npmjs.com/).
+
+2. Rode o comando: `npm i -g @angular/cli` na pasta do clone, para instalar as dependências do Angular.
+
+3. Após a instalação das dependências, execute o servidor com o comando `npm start`.
+
+4. Já em seu navegador, entre na rede [localhost:4200](http://localhost:4200/)
+
+## Todos os direitos reservados

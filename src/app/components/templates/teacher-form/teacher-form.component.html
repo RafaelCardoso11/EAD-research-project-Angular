@@ -1,4 +1,15 @@
 <app-comments-user-banner></app-comments-user-banner>
 <section class="teacherForm">
-    
+    <form class="form-field">
+        <div class="form">
+            <h1>Digite o seu nome:</h1>
+            <input placeholder="Nome" [(ngModel)]="usuario.name" name="name">
+        </div>
+        
+        <div class="form">
+            <h1>Quem é o primeiro presidente negro?</h1>
+            <input placeholder="presidente" [(ngModel)]="usuario.presidente" name="presidente">
+        </div>
+        <button class="bt_enviar" (click)="createNewForm()">Enviar</button>
+    </form>
 </section>

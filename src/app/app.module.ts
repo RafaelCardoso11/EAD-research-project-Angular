@@ -11,6 +11,8 @@ import { PageHomeComponent } from './components/page-home/page-home.component';
 import { TeacherFormComponent } from './components/templates/teacher-form/teacher-form.component';
 import { StudentFormComponent } from './components/templates/student-form/student-form.component';
 import { CommentsUserBannerComponent } from './components/templates/comments-user-banner/comments-user-banner.component';
+import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 
 
@@ -28,7 +30,9 @@ import { CommentsUserBannerComponent } from './components/templates/comments-use
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

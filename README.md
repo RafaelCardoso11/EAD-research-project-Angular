@@ -16,8 +16,7 @@ Pandemia do COVID-19.
 [Git Hub](https://github.com/Erineble)
 
 ### Hévine Lópes
-
-<br>
+[Git Hub](https://github.com/HevLop)
 
 # Frontend
 

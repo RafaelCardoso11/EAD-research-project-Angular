@@ -1,6 +1,51 @@
 {
   "usuarios": [
     {
+      "id":"belem",
+        "totalUsers": 0,
+        "totalDiscentes": 0,
+        "totalDocentes": 0,
+        "totalMasculino": 0,
+        "totalFeminino": 0
+      
+    },
+    {
+      "id":"ananindeua",
+      "totalUsers": 0,
+      "totalDiscentes": 0,
+      "totalDocentes": 0,
+      "totalMasculino": 0,
+      "totalFeminino": 0
+      
+    },
+    {
+      "id":"marituba",
+      "totalUsers": 0,
+      "totalDiscentes": 0,
+      "totalDocentes": 0,
+      "totalMasculino": 0,
+      "totalFeminino": 0
+      
+    },
+    {
+      "id":"benevides",
+      "totalUsers": 0,
+      "totalDiscentes": 0,
+      "totalDocentes": 0,
+      "totalMasculino": 0,
+      "totalFeminino": 0
+      
+    },
+    {
+      "id":"SantaBarbara",
+      "totalUsers": 0,
+      "totalDiscentes": 0,
+      "totalDocentes": 0,
+      "totalMasculino": 0,
+      "totalFeminino": 0
+      
+    },
+    {
       "id": 1,
       "name": "Rafael",
       "presidenteN": "Nilo Peçanha"

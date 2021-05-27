@@ -8,7 +8,7 @@
 /bazel-out
 
 # .env
-/src/app/IA_FILTER_DICI/.env
+/.env
 
 # dependencies
 /node_modules

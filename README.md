@@ -21,7 +21,7 @@ Pandemia do COVID-19.
 
 # Frontend
 
-Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli)versão 11.2.12.
+Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) versão 11.2.12.
 
 ## Artificial intelligence
 O projeto utiliza uma IA(inteligencia artificial) responsavel por gerenciar e montar gráficos com base nos dados recolhidos por formulários. A IA armazena e processa os dados

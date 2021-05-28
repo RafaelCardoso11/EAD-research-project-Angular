@@ -1,7 +1,8 @@
-import { Usuario } from '../../templates/Forms/usuario-form-model';
+
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormCreateService } from 'src/app/services/form.service';
+import { Usuario } from '../Forms/usuario-form-model';
 
 @Component({
   selector: 'app-content-header-view',

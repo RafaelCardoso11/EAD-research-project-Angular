@@ -1,4 +1,4 @@
-import { Usuario } from '../../src/app/components/templates/Forms/usuario-form-model';
+import { Usuario } from '../../src/app/components/viewTemplates/Forms/usuario-form-model';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 const { baseUrl } = require('./.env')

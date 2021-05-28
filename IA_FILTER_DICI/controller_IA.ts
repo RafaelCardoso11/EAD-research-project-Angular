@@ -1,4 +1,4 @@
-import { Usuario } from '../src/app/components/templates/Forms/usuario-form-model';
+import { Usuario } from '../src/app/components/viewTemplates/Forms/usuario-form-model';
 import { HttpClient } from '@angular/common/http';
 import { Dice } from './controllers/getDice.IA';
 const { baseUrl } = require('./.env')

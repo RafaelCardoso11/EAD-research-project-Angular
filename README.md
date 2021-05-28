@@ -18,6 +18,8 @@ Pandemia do COVID-19.
 ### Hévine Lópes
 [Git Hub](https://github.com/HevLop)
 
+### Juliana Xavier
+
 # Frontend
 
 Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) versão 11.2.12.

@@ -14,7 +14,9 @@ import { CommentsUserBannerComponent } from './components/templates/comments-use
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { ViewComponent } from './panel-admin-dashboard/components/view/view.component';
-
+import { HeaderDashboardComponent } from './panel-admin-dashboard/components/templates/header-dashboard/header-dashboard.component';
+import { SidenavAdminComponent } from './panel-admin-dashboard/components/templates/sidenav-admin/sidenav-admin.component';
+import { PageHomeAdminComponent } from './panel-admin-dashboard/components/templates/page-home-admin/page-home-admin.component';
 
 
 @NgModule({
@@ -28,13 +30,17 @@ import { ViewComponent } from './panel-admin-dashboard/components/view/view.comp
     TeacherFormComponent,
     StudentFormComponent,
     CommentsUserBannerComponent,
-    ViewComponent
+    ViewComponent,
+    HeaderDashboardComponent,
+    SidenavAdminComponent,
+    PageHomeAdminComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule 
+    HttpClientModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

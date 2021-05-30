@@ -13,3 +13,5 @@ html{
 //IMPORTS
 @import 'app/sizeResponsiveness/main.scss';
 @import 'app/animations/main.scss';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

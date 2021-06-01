@@ -1,5 +1,5 @@
 .more-research {
-    background: rgb(120, 120, 201);
+   background-color: lightslategrey;
     .container-research {
         max-width: 1000px;
       
@@ -40,12 +40,18 @@
             padding: 70px 20px;
             border-radius: 10px;
         }
+        .container-pesquisa {
+            background-color: maroon;
+        }
         .content-pesquisa {
             display: flex;
+            background-color: lightcoral;
             padding: 20px 0px;
         }
         .container-relatorio {
-            padding-bottom: 100px;
+            padding-top: 10px;
+            display: block;
+            background-color: lightseagreen;
         }
     }
     
@@ -54,7 +60,7 @@
     .more-research {
         .container-research {
             .content-pesquisa {
-                flex-direction: column;
+                flex-direction: row;
             }
             .cards{
                 margin-bottom: 20px;

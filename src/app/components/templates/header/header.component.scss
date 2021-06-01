@@ -1,11 +1,14 @@
 header {
+    font-family: 'Lato', sans-serif;
     position: fixed;
     z-index: 2;
     width: 100%;
-    height: 60px;
-    background-image: linear-gradient(-45deg, rgb(191, 206, 245), #86a3fa);
+    height: 70px;
+    background-image: linear-gradient(-45deg, rgb(191, 206, 245), #d0d4e2);
     .header-container {
-        max-width: 800px;
+        font-family: 'Lato';
+        font-size: 10%;
+        max-width: 1000px;
         width: 90%;
         margin: 0 auto;
         height: 100%;
@@ -14,19 +17,35 @@ header {
         align-items: center;
         .logo {
             img {
-                width: 50px;
-                height: 50px;
+                border-radius: 52%;
+                background-color: #86a3fa;
+                width: 15%;
+                height: 15%;
             }
         }
         .container-login {
-            display: flex;
+            display: inline;
             align-items: center;
-            .aboutUs{
+            .aboutUs {
+                padding-top: 20%;
                 text-decoration: none;
-                color: black;
+                display: inline;
+                color: rgb(22, 22, 22);
+                font-family: 'Lato', sans-serif;
                 font-size: 16rem;
                 font-weight: 700;
-                margin-right: 30px;
+                margin-right: 40px;
+                border: 1px;
+                cursor: pointer;
+                
+                
+                .aboutUs a:hover,
+                .aboutUs a:visited {
+                    color: lawngreen;
+                    transition: 400ms;
+                    border-bottom: #3c6bfa solid;
+                    border-radius: 30%;
+                }
             }
             .bt_register {
                 outline: none;

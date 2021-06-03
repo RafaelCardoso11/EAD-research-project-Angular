@@ -27,14 +27,14 @@
                 <p class="description-painel">Contém todos os dados fornecidos durante a Pesquisa.</p>
                 <div class="login-form">
 
-                    <input class="form-input" type="text" name="username" placeholder="Usuário">
-                    <input class="form-input" type="password" name="password" placeholder="Senha">
+                    <input class="form-input" type="text" name="username" placeholder="Usuário"  [(ngModel)]="User.username">
+                    <input class="form-input" type="password" name="password" placeholder="Senha"  [(ngModel)]="User.password">
 
                     <div class="remember-login-container">
-                        <input type="checkbox" name="remember" class="checkbox-rememberLogin">
+                        <input type="checkbox" [(ngModel)] ="isChecked" id="remember" class="checkbox-rememberLogin">
                         <label class="rememberText">Lembre de mim</label>
                     </div>
-                    <button class="bt_login-painel-admin">Entrar</button>
+                    <button class="bt_login-painel-admin" (click)="signIn()">Entrar</button>
                 </div>
             </div>
 

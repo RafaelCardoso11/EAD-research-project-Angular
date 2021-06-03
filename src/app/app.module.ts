@@ -21,7 +21,6 @@ import { ModelGroupAdminComponent } from './panel-admin-dashboard/components/tem
 import { LoginViewContentComponent } from './panel-admin-dashboard/components/viewTemplates/login-view-content/login-view-content.component';
 import { LoginComponent } from './panel-admin-dashboard/components/templates/login/login.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as Cookies from 'js-cookie';
 @Component({
   selector: 'app-view',
   templateUrl: './view.component.html',
@@ -17,7 +18,7 @@ export class ViewComponent implements OnInit {
   buttonTradeColor(){
     const buttonTradeColorView = document.querySelector(".buttonTradeColor")
     buttonTradeColorView?.classList.toggle("on", this.buttonClick)
-   this.buttonClick = !this.buttonClick
+    this.buttonClick = !this.buttonClick
   }
  
 }

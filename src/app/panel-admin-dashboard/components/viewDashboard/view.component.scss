@@ -1,3 +1,8 @@
+:root{
+    --blueDark-bg: #2a364d;
+    --blueLight-bg: #0356fc;
+}
+
 .backgroud-tradeColor {
     &.on {
         transition: 200ms;
@@ -24,7 +29,7 @@
         cursor: pointer;
         i{
 
-            color: #ffffff;
+            color: white;
             font-size: 35rem;
          
         }

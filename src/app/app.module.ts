@@ -13,11 +13,13 @@ import { StudentFormComponent } from './components/viewTemplates/Forms/student-f
 import { CommentsUserBannerComponent } from './components/templates/comments-user-banner/comments-user-banner.component';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
-import { ViewComponent } from './panel-admin-dashboard/components/view/view.component';
+import { ViewComponent } from './panel-admin-dashboard/components/viewDashboard/view.component';
 import { HeaderDashboardComponent } from './panel-admin-dashboard/components/templates/header-dashboard/header-dashboard.component';
 import { SidenavAdminComponent } from './panel-admin-dashboard/components/templates/sidenav-admin/sidenav-admin.component';
 import { PageHomeAdminComponent } from './panel-admin-dashboard/components/templates/page-home-admin/page-home-admin.component';
 import { ModelGroupAdminComponent } from './panel-admin-dashboard/components/templates/model-group-admin/model-group-admin.component';
+import { LoginViewContentComponent } from './panel-admin-dashboard/components/viewTemplates/login-view-content/login-view-content.component';
+import { LoginComponent } from './panel-admin-dashboard/components/templates/login/login.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { ModelGroupAdminComponent } from './panel-admin-dashboard/components/tem
     HeaderDashboardComponent,
     SidenavAdminComponent,
     PageHomeAdminComponent,
-    ModelGroupAdminComponent
+    ModelGroupAdminComponent,
+    LoginViewContentComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

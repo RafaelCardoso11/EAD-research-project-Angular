@@ -1,0 +1,96 @@
+$font-painel-admin: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.header-container{
+    height: 70px;
+}
+.login-container{
+    width: 100%;
+    height: 100%;
+ 
+    .login-content{
+        max-width: 1200px;
+        margin: 0 auto;
+        min-width: 30%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        
+        .container-studentAndTeacher-imgs{
+            .img-blop{
+                path{
+                    stroke: rgb(0, 0, 0);
+                }
+                .img-relatorio{
+                    width: 300px;
+                    
+                    transform: translateX(-70px);
+                   
+                }
+            }
+        }
+        .container-content-login{
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 3px;
+            padding: 50px;
+            .title-painel{
+                font-size: 30rem;
+                font-family:$font-painel-admin;
+                color: rgb(77, 69, 69);
+            }
+            .description-painel{
+                margin-top: 10px;
+                font-family: $font-painel-admin;
+                color: rgb(185, 185, 185);
+            }
+            .login-form{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                .form-input{
+                    margin-top: 10px;
+                    padding: 10px;
+                   
+                    color: white;
+                    border-radius: 3px;
+                    &:focus{
+                        background-color: rgb(82, 79, 79);
+                    }
+                  &::placeholder{
+                      font-family: $font-painel-admin;
+                  }
+                  
+                }  
+                .remember-login-container{
+                 
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 15px;
+                    .checkbox-rememberLogin{
+                        margin-right: 7px;
+                       cursor: pointer;
+                      border-radius: 0;
+                    }
+                    .rememberText{
+                        font-size: 13rem;
+                    }
+                }
+                .bt_login-painel-admin{
+                    font-family: $font-painel-admin;
+                    cursor: pointer;
+                    background-color: blueviolet;
+                    color: white;
+                    margin-top: 5px;
+                    padding: 10px;
+                    border-radius: 3px;
+                    &:hover{
+                        transition: 300ms;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+      
+    }
+}

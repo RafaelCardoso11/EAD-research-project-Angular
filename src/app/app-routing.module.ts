@@ -1,4 +1,5 @@
-import { ViewComponent } from './panel-admin-dashboard/components/view/view.component';
+import { LoginViewContentComponent } from './panel-admin-dashboard/components/viewTemplates/login-view-content/login-view-content.component';
+import { ViewComponent } from './panel-admin-dashboard/components/viewDashboard/view.component';
 
 import { TeacherFormComponent } from './components/viewTemplates/Forms/teacher-form/teacher-form.component';
 import { StudentFormComponent } from './components/viewTemplates/Forms/student-form/student-form.component';
@@ -26,7 +27,7 @@ const routes: Routes = [
   },
   {
     path: "admin/login",
-    component: ViewComponent
+    component: LoginViewContentComponent
   }
   
 ];

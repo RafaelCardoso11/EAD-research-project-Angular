@@ -1,8 +1,5 @@
 
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { FormCreateService } from 'src/app/services/form.service';
-import { Usuario } from '../Forms/usuario-form-model';
 
 @Component({
   selector: 'app-content-header-view',
@@ -11,19 +8,7 @@ import { Usuario } from '../Forms/usuario-form-model';
 })
 export class ContentHeaderViewComponent implements OnInit {
 
-  usuarios: Usuario = {
-    id: 10000
-  }
-  constructor(private router: Router, private serviceUsuarioCreate: FormCreateService) { }
+  constructor() { }
   ngOnInit(): void {
-  }
-  lenghtUsers(){
-    
-  }
-  redirectToTeacherForm(){
-    this.router.navigate(['formulario/professor']);
-  }
-  redirectToStudentForm(){
-    this.router.navigate(['formulario/aluno']);
   }
 }

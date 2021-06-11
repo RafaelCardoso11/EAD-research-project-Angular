@@ -9,17 +9,8 @@ html{
     width: 100%;
     height: 100%;
     font-size: 1px;
-    
 }
-h1{
-    font-size: 20rem;
-}
-p{
-    font-size: 15rem;
-}
-label{
-    font-size: 10rem;
-}
+
 input{
     border: 0;
     outline: none;
@@ -32,6 +23,7 @@ button{
     border: 0;
     outline: none;
 }
+
 //IMPORTS
 @import 'app/sizeResponsiveness/main.scss';
 @import 'app/animations/main.scss';

@@ -6,10 +6,12 @@
 
     .content-header {
         background-image: url(/assets/img/ead.jpeg);
+        background-size: 200% 200%;
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         padding: 0px 10px;
-        height: 100vh;
+        height: 110vh;
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -17,28 +19,12 @@
        .container{
         animation: animation-showO-letters 1s ease-in-out forwards;
         .title {
-         
-            position: relative;
             //font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            overflow: hidden;
             font-size: 30rem;
             width: 500rem;
             margin: 0 auto;
             font-weight: 700;
             color: rgb(0, 0, 0);
-        
-            ::after{
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                content: '';
-                background-image: url(../../../../assets/img/logo.jpg);
-                background-size: 100% 500%;
-                animation: nuvemMoveX 20s ease alternate infinite;
-                opacity: 0.6;
-            }
         }
         .desc {
 
@@ -80,11 +66,5 @@
        
        }
        
-    }
-}
-@keyframes nuvemMoveX {
-    to{
-        transition: 200ms;
-        transform: translateX(50%);
     }
 }

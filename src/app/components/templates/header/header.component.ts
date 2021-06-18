@@ -13,7 +13,12 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  modelLoginView(){
-    
+  activeMenuMobile(){
+    let menuOn;
+    let menuMobileActive = document.querySelector(".menu-container-mobile")
+    let menuMobile = document.querySelector(".menu-mobile")
+    menuMobile?.classList.toggle("on", menuOn)
+    menuMobileActive?.classList.toggle("on", menuOn)
+    menuOn = !menuOn;
   }
 }

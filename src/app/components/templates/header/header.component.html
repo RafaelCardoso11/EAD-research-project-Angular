@@ -1,4 +1,4 @@
-<header>
+<header class="header mobile">
     <div class="header-container">
         <div class="logo"><img src="/assets/img/logo.jpg" alt=""></div>
         <nav class="menu-container">
@@ -9,5 +9,20 @@
                 <li class="aboutUs"><a href="#aboutus">Sobre nós</a></li>
             </ul>
         </nav> 
+       
+        <nav class="menu-mobile" (click)="activeMenuMobile()">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </nav>
+        <nav class="menu-container-mobile">
+            <ul>
+                <li class="aboutUs"><a href="#forms">Formulários</a></li>
+                <li class="aboutUs"><a href="#goals">Objetivos</a></li>
+                <li class="aboutUs"><a href="#results">Resultados</a></li>
+                <li class="aboutUs"><a href="#aboutus">Sobre nós</a></li>
+            </ul>
+        </nav> 
+       
     </div>
 </header>

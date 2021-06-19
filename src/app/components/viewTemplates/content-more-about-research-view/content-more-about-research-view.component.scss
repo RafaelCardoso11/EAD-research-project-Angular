@@ -1,52 +1,98 @@
 .more-research {
-   background-color: lightslategrey;
+   background-color: rgb(206, 206, 206);
+   align-content: center;
+   justify-content: center;
+   padding: 2vw 5vh;
     .container-research {
-        max-width: 1000px;
-      
-        margin: 0 auto;
-        width: 90%;
-        .Summary-title {
-            font-family: "Ubuntu", sans-serif;
-            padding-top: 100px;
-            margin-bottom: 5px;
-            font-size: 24rem;
-            font-weight: 700;
+        align-content: center;    
+        
+        .title {
+            margin-top: 3vh;
+            background-color: white; 
+            text-align: center;
+            margin-bottom: 4vh;
+            border-color:rgb(252, 119, 31);
+            border: 3px;
+            border-radius: 20%;
+            .title-research {
+                padding-bottom: 1vh;
+                font-family: "Ubuntu", sans-serif;
+                color: rgb(252, 119, 31);
+                padding-top: 2vh;   
+                font-size: 35rem;
+                font-family: 700;
+            }
+            .description-title {
+                margin-top: 1vh;
+                font-family: 'Lato', sans-serif;
+                color:black;
+                border-top: rgb(252, 119, 31);
+                border-top: 5px;
+                font-size: 22rem;
+                display: inline-block;
+                font-family: 700;
+                font-weight: 400;
+                line-height: 4vh;
+                padding: 2vw;
+            }
         }
-        .title-research {
-            font-family: "Ubuntu", sans-serif;
-            color: white;
-            text-align: initial;
-
-            font-size: 36rem;
-            font-family: 700;
-        }
-        .description-title {
-            font-family: "Ubuntu", sans-serif;
-            color: white;
-            text-align: initial;
-            font-size: 24rem;
-            font-family: 700;
-            line-height: 36px;
-        }
+        
         .cards {
             // Esse card vale para todos que estão utilizando a class cards
             .card-title {
                 font-size: 30rem;
+                text-align: center;
+                padding-bottom: 10px;
+                font-family: 'Ubuntu', sans-serif;
+                color: rgb(252, 119, 31);
             }
-            font-size: 25rem;
-            background: #86a3fa;
+            font-size: 22rem;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            background: rgb(206, 206, 206);
+            align-content: center;
+            font-family: 'Lato', sans-serif;
+            border-color: rgb(252, 119, 31);
+            text-align: center;
+            padding:2vw;
+            display:flex;
+            flex-direction: column;
             box-shadow: 0px 0px 3px;
-            margin-right: 10px;
-            padding: 70px 20px;
-            border-radius: 10px;
+            //margin-right: 10px;
+            /*padding: 20px;
+            height: 80vh;
+            width: 50vw;*/
+            .img-pesq {
+                width: 40vw;
+                height: 60vh;
+                border-radius: 10%;
+                display: inline-flex;
+                justify-items: legacy;
+                float: left;
+                position: relative;
+                flex-direction: column;
+            }
+            .text {
+                float: left;
+                display: inline-flex;
+                position: relative;
+                flex-direction: column;
+                font-family: 'Lato', sans-serif;
+            }
         }
         .container-pesquisa {
-            background-color: maroon;
+            background-color: rgb(206, 206, 206);
         }
         .content-pesquisa {
-            display: flex;
-            background-color: lightcoral;
+            display: block;
             padding: 20px 0px;
+            align-content: center;
+            width: 100%;
+            //display: grid;
+            //grid-row-gap: 50px;
+            //grid-template-columns: auto auto auto;
+            background-color: #fa9d33;
+            padding: 10px;
         }
         .container-relatorio {
             padding-top: 10px;

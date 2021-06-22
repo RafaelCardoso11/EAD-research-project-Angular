@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     font-size: 10rem;
-    
+    font-family: 'Raleway', sans-serif;
     .container-research{
         min-height: 100vh;
         width: 100%;
@@ -16,7 +16,6 @@
             padding: 20px;
             
             .img-container-research{
-                
                 min-height: 100vh;
                 display: flex;
                 justify-content: center;
@@ -51,7 +50,7 @@
                 .line-details{
                     width: 100px;
                     height: 3px;
-                    background-color: #bb5815 ;
+                    background-color: #B8081D ;
                     margin-bottom: 20px;
                 }
                 #line-bottom{
@@ -60,7 +59,6 @@
                     margin-left: auto;
                 }
                 .description-title{
-                    font-family: Tahoma, Geneva, Verdana, sans-serif;
                     font-weight: 370;
                     text-indent: 70px;
                     line-height: 30px;
@@ -80,7 +78,7 @@
                     position: absolute;
                     z-index: -1;
                     right: 0;
-                    fill: chocolate;
+                    fill: #ac1527;
                     //top: 800px;
                     opacity: 0.4;
                     max-width: 850px;

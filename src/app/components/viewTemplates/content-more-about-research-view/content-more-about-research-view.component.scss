@@ -1,44 +1,45 @@
+@import "../../../sizeResponsiveness/main.scss";
 .more-research {
     width: 100%;
     height: auto;
     font-size: 10rem;
-    font-family: 'Raleway', sans-serif;
-    .container-research{
+    font-family: "Raleway", sans-serif;
+    .container-research {
         min-height: 100vh;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        
-        .container-pesquisa{
+
+        .container-pesquisa {
             width: 100%;
-            display:flex;
+            display: flex;
             padding: 20px;
-            
-            .img-container-research{
+
+            .img-container-research {
                 min-height: 100vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-top: 50px;
-               img{
-                   border-radius: 40%;
-                   object-fit: cover;
-                   margin: 40px;
-                     max-width: 500px;
-                   height: 500px;
-               }
+                img {
+                    border-radius: 40%;
+                    object-fit: cover;
+                    margin: 40px;
+                    max-width: 500px;
+                    min-height: 100px;
+                    height: 500px;
+                }
             }
-            .container-research-objetivo{
-            
+            .container-research-objetivo {
                 min-height: 100vh;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
-               
-                .title-research{
+
+                .title-research {
                     width: 100%;
                     color: black;
                     text-align: right;
@@ -47,34 +48,30 @@
 
                     padding: 20px;
                 }
-                .line-details{
+                .line-details {
                     width: 100px;
                     height: 3px;
-                    background-color: #B8081D ;
+                    background-color: #b8081d;
                     margin-bottom: 20px;
                 }
-                #line-bottom{
+                #line-bottom {
                     margin: 70px 0px;
                     width: 200px;
                     margin-left: auto;
                 }
-                .description-title{
+                .description-title {
                     font-weight: 370;
                     text-indent: 70px;
                     line-height: 30px;
-                    text-align:left;
+                    text-align: left;
                     font-size: 16rem;
                     max-width: 600px;
-                    
                 }
-              
             }
-           
-            .container-svg-bg{
-               
+
+            .container-svg-bg {
                 width: auto;
-                .bg-details-svg{
-                    
+                .bg-details-svg {
                     position: absolute;
                     z-index: -1;
                     right: 0;
@@ -82,24 +79,8 @@
                     //top: 800px;
                     opacity: 0.4;
                     max-width: 850px;
-
-                  }
-            }
-            
-        }
-    }
-   
-}
-@media only screen and (max-width: 920px) {
-    html {
-        font-size: 1px;
-    }
-    .more-research {
-        .container-research {
-            .title-research {
-                text-align: center;
+                }
             }
         }
     }
 }
-@import '../../../sizeResponsiveness/main.scss';

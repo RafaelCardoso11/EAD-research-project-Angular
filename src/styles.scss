@@ -6,10 +6,7 @@
     
 }
 html{
-    width: 100%;
-    height: 100%;
     font-size: 1px;
-    overflow-x: hidden;
 }
 
 input{
@@ -24,8 +21,8 @@ button{
     border: 0;
     outline: none;
 }
-
-//IMPORTS
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@media (max-width: 900px){
+    html{
+        font-size: 0.8px;
+    }
+}

@@ -1,8 +1,6 @@
 header {
     //font-family: "Poppins", Sans-serif;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
+   
     height: 70px;
     background-color: #B8081D;
     opacity: 0.9;
@@ -18,8 +16,8 @@ header {
         align-items: center;
         .logo {
             img {
-                width: 45px;
-                height: 45px;
+                width: 50px;
+                height: 50px;
             }
         }
         .menu-container {
@@ -28,15 +26,16 @@ header {
                 text-decoration: none;
                 display: inline;
                 color: rgb(0, 0, 0);
-                font-family: "Poppins", Sans-serif;
+               
                 font-size: 16rem;
                 font-weight: 450;
                 margin-right: 40px;
                 border: 1px;
                 cursor: pointer;
-
-                a:hover,
-                a:active {
+                a{
+                    font-family: 'Raleway', Sans-serif;
+                }
+                a:hover {
                     text-decoration: none;
                     transition: 400ms;
                     border-bottom: 2pt #ffffff solid;

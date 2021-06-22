@@ -11,4 +11,5 @@ export class ContentHeaderViewComponent implements OnInit {
   constructor() { }
   ngOnInit(): void {
   }
+
 }

@@ -92,4 +92,16 @@
     }
    
 }
+@media only screen and (max-width: 920px) {
+    html {
+        font-size: 1px;
+    }
+    .more-research {
+        .container-research {
+            .title-research {
+                text-align: center;
+            }
+        }
+    }
+}
 @import '../../../sizeResponsiveness/main.scss';

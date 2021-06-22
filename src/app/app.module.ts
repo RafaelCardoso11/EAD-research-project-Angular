@@ -9,6 +9,7 @@ import { ContentHeaderViewComponent } from './components/viewTemplates/content-h
 import { ContentMoreAboutResearchViewComponent } from './components/viewTemplates/content-more-about-research-view/content-more-about-research-view.component';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { ContentGoalsResearchComponent } from './components/viewTemplates/content-goals-research/content-goals-research.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {FormsModule} from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     ContentHeaderViewComponent,
-    ContentMoreAboutResearchViewComponent
+    ContentMoreAboutResearchViewComponent,
+    ContentGoalsResearchComponent
   ],
   imports: [
     BrowserModule,

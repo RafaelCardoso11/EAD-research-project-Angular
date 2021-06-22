@@ -1,4 +1,71 @@
+@media only screen and (max-width: 920px) {
+    html{
+        font-size: 1px;
+    }
+    .container-headerView {
+     
+        .content-header {
 
+            background-size: 150% 100%;
+        }
+    }
+    .more-research {
+    
+        .container-research{
+         .container-research-objetivo{
+            .description-title{
+                font-size: 22rem;
+                
+                width: 100%;
+                padding: 40px;
+            }
+            
+         }
+            .container-pesquisa{
+             flex-direction: column;
+                .img-container-research{
+                    padding: 20px;
+                    margin: 20px;
+                    img{
+                      max-width: 400px;
+                    }
+                }
+            }
+            .container-svg-bg{
+                width: auto;
+                .bg-details-svg{
+                   top: calc(200vh + 150px);
+                   left: 15px;
+                   width: 600px;
+                  }
+            }
+        }
+    }
+    .container-goals{
+     
+        .content-goals{
+         
+          .card-goals{
+           
+            max-width: 600px;
+            min-width: auto;
+            height: auto;
+            .title-card{
+              font-size: 35rem;
+            }
+            .desc-card{
+                font-size: 25rem;
+            }
+            img{
+                
+               
+              }
+          }
+          
+        }
+        
+    }
+  }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     html{

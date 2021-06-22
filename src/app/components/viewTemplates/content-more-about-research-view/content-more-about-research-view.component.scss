@@ -1,104 +1,95 @@
 .more-research {
-   background-color: rgb(206, 206, 206);
-   align-content: center;
-   justify-content: center;
-   padding: 2vw 5vh;
-    .container-research {
-        align-content: center;    
+    width: 100%;
+    height: auto;
+    font-size: 10rem;
+    
+    .container-research{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
-        .title {
-            margin-top: 3vh;
-            background-color: white; 
-            text-align: center;
-            margin-bottom: 4vh;
-            border-color:rgb(252, 119, 31);
-            border: 3px;
-            border-radius: 20%;
-            .title-research {
-                padding-bottom: 1vh;
-                font-family: "Ubuntu", sans-serif;
-                color: rgb(252, 119, 31);
-                padding-top: 2vh;   
-                font-size: 35rem;
-                font-family: 700;
-            }
-            .description-title {
-                margin-top: 1vh;
-                font-family: 'Lato', sans-serif;
-                color:black;
-                border-top: rgb(252, 119, 31);
-                border-top: 5px;
-                font-size: 22rem;
-                display: inline-block;
-                font-family: 700;
-                font-weight: 400;
-                line-height: 4vh;
-                padding: 2vw;
-            }
-        }
-        
-        .cards {
-            // Esse card vale para todos que estão utilizando a class cards
-            .card-title {
-                font-size: 30rem;
-                text-align: center;
-                padding-bottom: 10px;
-                font-family: 'Ubuntu', sans-serif;
-                color: rgb(252, 119, 31);
-            }
-            font-size: 22rem;
-            margin-left: 2vw;
-            margin-right: 2vw;
-            background: rgb(206, 206, 206);
-            align-content: center;
-            font-family: 'Lato', sans-serif;
-            border-color: rgb(252, 119, 31);
-            text-align: center;
-            padding:2vw;
-            display:flex;
-            flex-direction: column;
-            box-shadow: 0px 0px 3px;
-            //margin-right: 10px;
-            /*padding: 20px;
-            height: 80vh;
-            width: 50vw;*/
-            .img-pesq {
-                width: 40vw;
-                height: 60vh;
-                border-radius: 10%;
-                display: inline-flex;
-                justify-items: legacy;
-                float: left;
-                position: relative;
-                flex-direction: column;
-            }
-            .text {
-                float: left;
-                display: inline-flex;
-                position: relative;
-                flex-direction: column;
-                font-family: 'Lato', sans-serif;
-            }
-        }
-        .container-pesquisa {
-            background-color: rgb(206, 206, 206);
-        }
-        .content-pesquisa {
-            display: block;
-            padding: 20px 0px;
-            align-content: center;
+        .container-pesquisa{
             width: 100%;
-            //display: grid;
-            //grid-row-gap: 50px;
-            //grid-template-columns: auto auto auto;
-            background-color: #fa9d33;
-            padding: 10px;
-        }
-        .container-relatorio {
-            padding-top: 10px;
-            display: block;
-            background-color: lightseagreen;
+            display:flex;
+            padding: 20px;
+            
+            .img-container-research{
+                
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+               img{
+                   border-radius: 40%;
+                   object-fit: cover;
+                   margin: 40px;
+                     max-width: 500px;
+                   height: 500px;
+               }
+            }
+            .container-research-objetivo{
+            
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+               
+                .title-research{
+                    width: 100%;
+                    color: black;
+                    text-align: right;
+                    font-size: 40rem;
+                    font-family: "Poppins", Sans-serif;
+
+                    padding: 20px;
+                }
+                .line-details{
+                    width: 100px;
+                    height: 3px;
+                    background-color: #bb5815 ;
+                    margin-bottom: 20px;
+                }
+                #line-bottom{
+                    margin: 70px 0px;
+                    width: 200px;
+                    margin-left: auto;
+                }
+                .description-title{
+                    font-family: Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: 370;
+                    text-indent: 70px;
+                    line-height: 30px;
+                    text-align:left;
+                    font-size: 16rem;
+                    max-width: 600px;
+                    
+                }
+              
+            }
+           
+            .container-svg-bg{
+               
+                width: auto;
+                .bg-details-svg{
+                    
+                    position: absolute;
+                    z-index: -1;
+                    right: 0;
+                    fill: chocolate;
+                    //top: 800px;
+                    opacity: 0.4;
+                    max-width: 850px;
+
+                  }
+            }
+            
         }
     }
-    
+   
 }
+@import '../../../sizeResponsiveness/main.scss';

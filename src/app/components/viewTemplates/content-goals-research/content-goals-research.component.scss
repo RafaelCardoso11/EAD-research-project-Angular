@@ -1,43 +1,67 @@
-.container-goals{
+.container-goals {
   width: 100%;
   height: 100%;
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(240, 240, 240);
   padding: 50px;
   height: auto;
   margin: 0 auto;
-  .content-goals{
+  border-bottom: rgb(240, 240, 240) solid 50px;
+  .content-goals {
     display: flex;
+  
     justify-content: center;
     height: 100%;
     flex-wrap: wrap;
-    .card-goals{
+    .title-section {
+      width: 100%;
+      color: black;
+      text-align:center;
+      font-size: 40rem;
+      font-family: "Poppins", Sans-serif;
+      padding: 20px;
+    }
+    .card-goals {
+      transition: 300ms;
+      opacity: 0;
+      animation: fadeOpacity 2s 1s forwards;
       margin: 20px;
       flex: 1 1 100px;
-      max-width: 500px;
+      max-width: 300px;
       min-width: 250px;
       flex-wrap: wrap;
-      height: 350px;
-      .title-card{
+      height: 400px;
+      .title-card {
         font-family: "Poppins";
         font-weight: 400;
         text-align: center;
-        font-size: 18rem;
+        font-size: 25rem;
         padding-bottom: 10px;
       }
-      .desc-card{
-        font-family: 'Raleway', sans-serif;
+      
+      .desc-card {
+        font-family: "Raleway", sans-serif;
         text-align: center;
-        font-size: 16rem;
+        font-size: 20rem;
         padding: 5px;
-     
       }
-      img{
+      img {
         min-width: 250px;
         width: 100%;
         z-index: 2;
         margin-bottom: 15px;
+        max-height: 175px;
       }
+      .img-1{
+        align-self: center;
+        width: 220px;
+      }
+      
+    }
+  }
+  @keyframes fadeOpacity {
+    to {
+      opacity: 1;
     }
   }
 }
-@import '../../../sizeResponsiveness/main.scss';
+@import "../../../sizeResponsiveness/main.scss";

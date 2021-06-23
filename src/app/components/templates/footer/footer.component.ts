@@ -11,5 +11,11 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  toggleFooter(){
+    let arrowRotate =  document.querySelector(".arrow-divs-container");
+    let itemsHide = document.querySelector(".container-items");
+    
+    arrowRotate?.classList.toggle("on");
+    itemsHide?.classList.toggle("on");
+}
 }

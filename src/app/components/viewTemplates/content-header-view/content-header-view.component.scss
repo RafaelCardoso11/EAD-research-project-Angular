@@ -29,6 +29,7 @@
         .desc {
             font-family: 'Raleway', sans-serif;
             width: 450rem;
+            font-weight: 400;
             margin: 0 auto;
             color: black;
             font-size: 19rem;
@@ -38,7 +39,6 @@
         
         .buttons{
             width: 500rem;
-            font-family: 'Raleway', sans-serif;
             font-weight: 400;
             margin: 0 auto;
             .bt_participar{
@@ -48,7 +48,7 @@
                 border: 10px;
                 border-radius: 15px;
                 background-color: #B8081D;
-                color: rgb(0, 0, 0);
+                color: rgb(255, 245, 245);
                 font-size: 16rem;
                 font-weight: 750px;
                 font-family:'Raleway', sans-serif;
@@ -57,11 +57,10 @@
                 margin-right: 30px;
                 
                 &:hover {
-                    scale: 4px;
                     font-size: 18rem;
                     transition: 400ms;
                     padding: 25rem;
-                    text-align: center;
+                    background-color: #57060f
                 }
 
             }

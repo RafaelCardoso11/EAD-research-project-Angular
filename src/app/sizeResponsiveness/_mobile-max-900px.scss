@@ -1,14 +1,131 @@
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-   
-   
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-  
-  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 816px) {
+    footer {
+        .container-footer {
+            .footer-items {
+                width: 90vw;
+                margin: 0 auto;
+                .title-item {
+                    margin-top: 20px;
+                    padding: 20px 100px;
+                    cursor: pointer;
+                    border-bottom: 1px solid rgb(218, 127, 127);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    &.nav{
+                        display: none;
+                    }
+                    .arrow-divs-container {
+                        div {
+                            background-color: white;
+                            width: 20px;
+                            height: 2px;
+                        }
+                        #arrow-1 {
+                            transform: translateY(2px);
+                        }
+                        #arrow-2 {
+                            transform: rotate(90deg);
+                        }
+                        &.on{
+                            transform: rotate(45deg);
+                        }
+                    }
+                
+                }
+                .container-items {
+                    display: flex;
+                    text-align:center;
+                    align-items: center;
+                    flex-direction: column;
+                    // display: none;
+                    &.nav{
+                        display: none;
+                    }
+                    &.on{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    
+    .container-headerView {
+        .content-header {
+            .container {
+                .desc {
+                    font-size: 25rem; 
+
+
+                }
+                .buttons {
+                    width: 50%;
+                }
+            }
+        }
+    }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
+    header {
+        .header-container {
+            .menu-container {
+                display: none;
+            }
+            .menu-mobile {
+                display: block;
+            }
+        }
+    }
+    .container-headerView {
+        .content-header {
+            .container {
+                .desc {
+                    font-size: 25rem; 
+
+                }
+            }
+        }
+    }
+    .more-research {
+        h1 {
+            text-align: center;
+        }
+
+        .container-research {
+            .container-pesquisa {
+                .container-research-objetivo {
+                    .title-research {
+                        text-align: center;
+                    }
+                }
+
+                .img-container-research {
+                    padding: 20px;
+                    margin: 20px;
+                    img {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+    .container-goals {
+        .content-goals {
+            .card-goals {
+                max-width: 600px;
+
+                height: auto;
+                padding: 10px;
+                margin-bottom: 50px;
+                .title-card {
+                    font-size: 35rem;
+                }
+                .desc-card {
+                    font-size: 25rem;
+                }
+            }
+        }
+    }
 }

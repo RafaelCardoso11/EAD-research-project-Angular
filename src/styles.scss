@@ -26,3 +26,21 @@ button{
         font-size: 0.8px;
     }
 }
+@media (max-width: 600px){
+    html{
+        font-size: 0.7px;
+    }
+}
+@media (max-width: 500px){
+    html{
+        font-size: 0.65px;
+    }
+}
+@media (max-width: 400px){
+    html{
+        font-size: 0.6px;
+    }
+}
+
+//IMPORTS
+@import 'app/animations/main.scss';

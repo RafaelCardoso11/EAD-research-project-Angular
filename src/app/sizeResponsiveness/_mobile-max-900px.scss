@@ -5,6 +5,18 @@
             .footer-items {
                 width: 90vw;
                 margin: 0 auto;
+               
+                &.on{
+                    
+                    .container-items {
+                       
+                        display: block;
+                        animation: hideMenuFooterTop 200ms forwards;
+                    }
+                    .arrow-divs-container {
+                        transform: rotate(45deg);
+                    }
+                }
                 .title-item {
                     margin-top: 20px;
                     padding: 20px 100px;
@@ -19,7 +31,7 @@
                     .arrow-divs-container {
                         div {
                             background-color: white;
-                            width: 20px;
+                            width: 15px;
                             height: 2px;
                         }
                         #arrow-1 {
@@ -28,9 +40,7 @@
                         #arrow-2 {
                             transform: rotate(90deg);
                         }
-                        &.on{
-                            transform: rotate(45deg);
-                        }
+                       
                     }
                 
                 }
@@ -39,12 +49,12 @@
                     text-align:center;
                     align-items: center;
                     flex-direction: column;
-                    // display: none;
+                    display: none;
+                    opacity: 0;
+                    transform: translateY(-20%);
+                   
                     &.nav{
                         display: none;
-                    }
-                    &.on{
-                        display: block;
                     }
                 }
             }
@@ -127,5 +137,11 @@
                 }
             }
         }
+    }
+}
+@keyframes hideMenuFooterTop{
+    to{
+        opacity: 1;
+        transform: translateY(0);
     }
 }

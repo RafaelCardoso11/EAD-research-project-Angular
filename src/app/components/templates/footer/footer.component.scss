@@ -29,17 +29,14 @@ footer {
                 font-weight: 500;
                 margin-bottom: 15px;
                 font-family: "Poppins", sans-serif;
-                &:hover{
-                    transition: 200ms;
-                    opacity: .7;
-                   
-                }
+               
             }
            
             .container-items{
                 .github-container {
                     display: flex;
-                    justify-content: center;
+              
+                    align-items: center;
                     font-size: 16rem;
                     color: $white-color;
                     img {

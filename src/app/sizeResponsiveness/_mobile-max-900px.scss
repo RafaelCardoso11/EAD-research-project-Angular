@@ -2,14 +2,14 @@
 @media only screen and (max-width: 816px) {
     footer {
         .container-footer {
+            grid-template-columns: repeat(auto-fit, minmax( 1fr));
+            justify-content: center;
             .footer-items {
-                width: 90vw;
-                margin: 0 auto;
-               
-                &.on{
-                    
+                width: 90%;
+              
+
+                &.on {
                     .container-items {
-                       
                         display: block;
                         animation: hideMenuFooterTop 200ms forwards;
                     }
@@ -19,18 +19,17 @@
                 }
                 .title-item {
                     margin-top: 20px;
-                    padding: 20px 100px;
+                    padding: 20px 0px;
                     cursor: pointer;
                     border-bottom: 1px solid rgb(218, 127, 127);
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    &:hover{
+                    &:hover {
                         transition: 200ms;
-                        opacity: .7;
-                       
+                        opacity: 0.7;
                     }
-                    &.nav{
+                    &.nav {
                         display: none;
                     }
                     .arrow-divs-container {
@@ -45,34 +44,34 @@
                         #arrow-2 {
                             transform: rotate(90deg);
                         }
-                       
                     }
-                
                 }
                 .container-items {
                     display: flex;
-                    text-align:center;
+                    text-align: center;
                     align-items: center;
                     flex-direction: column;
                     display: none;
                     opacity: 0;
                     transform: translateY(-20%);
-                   
-                    &.nav{
+                  
+                        .github-container {
+                         
+                            justify-content: center;
+                        }
+                    &.nav {
                         display: none;
                     }
                 }
             }
         }
     }
-    
+
     .container-headerView {
         .content-header {
             .container {
                 .desc {
-                    font-size: 25rem; 
-
-
+                    font-size: 25rem;
                 }
                 .buttons {
                     width: 50%;
@@ -96,9 +95,12 @@
     .container-headerView {
         .content-header {
             .container {
+                .title {
+                    width: 90%;
+                }
+              
                 .desc {
-                    font-size: 25rem; 
-
+                    font-size: 25rem;
                 }
             }
         }
@@ -130,7 +132,7 @@
         .content-goals {
             .card-goals {
                 max-width: 600px;
-
+               
                 height: auto;
                 padding: 10px;
                 margin-bottom: 50px;
@@ -143,9 +145,48 @@
             }
         }
     }
+    footer {
+        .container-footer {
+            .footer-items {
+                width: 60%;
+                margin: 0 auto;
+                .title-item{
+                    padding: 40px 0px;
+                 
+                }
+            }
+        }
+    }
 }
-@keyframes hideMenuFooterTop{
-    to{
+@media only screen and (max-width: 280px) {
+    .container-goals {
+        .content-goals {
+            .card-goals {
+                img {
+                    min-width: 0px;
+                    width: 100%;
+                    z-index: 2;
+                
+                  }
+               
+            }
+        }
+    }
+    footer {
+        .container-footer {
+            .footer-items {
+                width: 40%;
+                margin: 0 auto;
+                .title-item{
+                    padding: 40px 0px;
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+@keyframes hideMenuFooterTop {
+    to {
         opacity: 1;
         transform: translateY(0);
     }

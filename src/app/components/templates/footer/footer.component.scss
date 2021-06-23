@@ -1,14 +1,92 @@
-footer{
-    height: 200px;
-   
-    .subcontainer-footer{
-        background:#BB5815;
-        height: 100px;
+footer {
+    height: auto;
+    width: 100%;
+    .subcontainer-footer {
+        background: #b6172a;
+        height: 70px;
         width: 100%;
     }
-    .container-footer{
+    .container-footer {
+        display: grid;
+
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+        justify-items: center;
+        margin: 0 auto;
         height: 100%;
-        background-image: linear-gradient(-45deg, #BB5815, #fc9754);
+        background-image: linear-gradient(-45deg, #f15050, #ad1426);
+
+        .footer-items {
+            margin: 20px 0px;
+            color: white;
+            font-size: 12rem;
+            font-weight: 400;
+            width: 250px;
+            .title-item {
+                font-weight: 500;
+                margin-bottom: 15px;
+                font-family: "Poppins", sans-serif;
+            }
+            .container-items{
+               
+                .github-container {
+                    display: flex;
+                    align-items: center;
+                    font-size: 16rem;
+                    color: white;
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 5px;
+                    }
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                p {
+                    text-align: center;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    font-size: 16rem;
+                    font-family: 'Raleway', sans-serif;
+                    opacity: 0.9;
+                }
+                a {
+                    font-weight: 200;
+                    font-size: 16rem;
+                    font-family: 'Raleway', sans-serif;
+                    
+                    opacity: 0.9;
+                }
+                .aboutUs {
+                    font-size: 12rem;
+                    list-style: none;
+                    margin-bottom: 10px;
+                    a {
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 16rem;
+                        color: white;
+                        opacity: 0.9;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+         
+           
+        }
+    }
+    .container {
+        height: 50px;
+        background-color: rgb(126, 6, 6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .copy {
+            color: white;
+            font-size: 14rem;
+        }
     }
 }
-@import '../../../sizeResponsiveness/main.scss';
+@import "../../../sizeResponsiveness/main.scss";

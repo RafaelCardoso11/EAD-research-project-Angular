@@ -1,10 +1,11 @@
+@import '../../../colors/paleta.scss';
 header {
     //font-family: "Poppins", Sans-serif;
     width: 100%;
     position: fixed;
     height: 70px;
     z-index: 2;
-    background-color: #B8081D;
+    background-color: $red-backgroudHeader-Color;
     opacity: 0.9;
     .header-container {
         font-family: 'Raleway', sans-serif;
@@ -27,7 +28,7 @@ header {
             .aboutUs {
                 text-decoration: none;
                 display: inline;
-                color: rgb(0, 0, 0);
+                color: $black-color;
                
                 font-size: 16rem;
                 font-weight: 450;
@@ -40,13 +41,13 @@ header {
                 a:hover {
                     text-decoration: none;
                     transition: 400ms;
-                    border-bottom: 2pt #ffffff solid;
+                    border-bottom: 2pt $white-color solid;
                 }
 
                 a:link,
                 a:visited {
                     text-decoration: none;
-                    color: #ffffff;
+                    color: $white-color;
                 }
             }
         }
@@ -58,7 +59,7 @@ header {
                 transition: 300ms;
                 width: 40px;
                 height: 5px;
-                background: white;
+                background: $white-color;
                 margin-bottom: 4px;
             }
             &.on {
@@ -85,25 +86,25 @@ header {
         height: 100%;
         top: 70px;
         left: 0;
-        background:  #B8081D;
+        background:  $red-backgroudHeader-Color;
 
         .aboutUs {
             cursor: pointer;
             width: 100%;
             text-align: center;
             padding: 20px;
-            background: #B8081D;
+            background: $red-backgroudHeader-Color;
             margin-top: 5px;
             font-size: 25rem;
             font-weight: 450;
             a {
                 font-family: 'Raleway', Sans-serif;
                 font-weight: 500;
-                color: rgb(255, 255, 255);
+                color: $white-color;
             }
         }
         .aboutUs:hover {
-            background:  #aa071a;
+            background:  $red-buttons-hover;
         }
         &.on {
             display: block;

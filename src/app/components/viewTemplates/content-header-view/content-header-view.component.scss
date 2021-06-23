@@ -1,3 +1,4 @@
+@import '../../../colors/paleta.scss';
 .container-headerView {
     width: 100%;
     max-height: 100%;
@@ -24,14 +25,14 @@
             width: 600rem;
             margin: 0 auto;
             font-weight: 500;
-            color: rgb(0, 0, 0);
+            color: $black-color;
         }
         .desc {
             font-family: 'Raleway', sans-serif;
             width: 450rem;
             font-weight: 400;
             margin: 0 auto;
-            color: black;
+            color: $black-color;
             font-size: 19rem;
             font-weight: 400;
             margin-top: 16px;
@@ -47,8 +48,8 @@
                 outline: 0;
                 border: 10px;
                 border-radius: 15px;
-                background-color: #B8081D;
-                color: rgb(255, 245, 245);
+                background-color: $red-backgroudHeader-Color;
+                color: $color-whitef5;
                 font-size: 16rem;
                 font-weight: 750px;
                 font-family:'Raleway', sans-serif;
@@ -60,7 +61,7 @@
                     font-size: 18rem;
                     transition: 400ms;
                     padding: 25rem;
-                    background-color: #57060f
+                    background-color: $redDark-buttons-hover;
                 }
 
             }

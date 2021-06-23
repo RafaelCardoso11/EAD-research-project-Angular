@@ -1,4 +1,4 @@
-
+@import '../../../colors/paleta.scss';
 .more-research {
     width: 100%;
     height: auto;
@@ -45,7 +45,7 @@
 
                 .title-research {
                     width: 100%;
-                    color: black;
+                    color: $black-color;
                     float: right;
                     font-size: 40rem;
                     font-family: "Poppins", Sans-serif;
@@ -54,7 +54,7 @@
                 .line-details {
                     width: 100px;
                     height: 3px;
-                    background-color: #b8081d;
+                    background-color: $red-backgroudHeader-Color;
                     margin-bottom: 20px;
                 }
                 #line-bottom {
@@ -75,11 +75,5 @@
         }
     }
 }
-@keyframes containerOpacityX {
-   
-    from{
-        opacity: 1;
-        transform: translateX(+100px);
-    }
-}
+
 @import "../../../sizeResponsiveness/main.scss";

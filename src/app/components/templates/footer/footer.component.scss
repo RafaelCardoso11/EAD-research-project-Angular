@@ -1,8 +1,11 @@
+@import '../../../colors/paleta.scss';
+
+
 footer {
     height: auto;
     width: 100%;
     .subcontainer-footer {
-        background: #b6172a;
+        background: $red-secundary-Color;
         height: 70px;
         width: 100%;
     }
@@ -14,11 +17,11 @@ footer {
         justify-items: center;
         margin: 0 auto;
         height: 100%;
-        background-image: linear-gradient(-45deg, #f15050, #ad1426);
+        background-image: linear-gradient(-45deg, $red-tertiary-Color, $red-primary-Color);
 
         .footer-items {
             margin: 20px 0px;
-            color: white;
+            color: $white-color;
             font-size: 12rem;
             font-weight: 400;
             width: 250px;
@@ -33,7 +36,7 @@ footer {
                     display: flex;
                     align-items: center;
                     font-size: 16rem;
-                    color: white;
+                    color: $white-color;
                     img {
                         width: 30px;
                         height: 30px;
@@ -44,7 +47,7 @@ footer {
                     }
                 }
                 p {
-                    text-align: center;
+                 
                     margin-bottom: 10px;
                     font-weight: 400;
                     font-size: 16rem;
@@ -65,7 +68,7 @@ footer {
                     a {
                         font-family: 'Raleway', sans-serif;
                         font-size: 16rem;
-                        color: white;
+                        color: $white-color;
                         opacity: 0.9;
                         &:hover {
                             text-decoration: underline;
@@ -79,12 +82,12 @@ footer {
     }
     .container {
         height: 50px;
-        background-color: rgb(126, 6, 6);
+        background-color: $red-container-copy;
         display: flex;
         align-items: center;
         justify-content: center;
         .copy {
-            color: white;
+            color: $white-color;
             font-size: 14rem;
         }
     }

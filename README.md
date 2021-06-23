@@ -4,9 +4,9 @@
 Segundo o PPC do Curso Técnico em Desenvolvimento de Sistemas, o projeto integrador de pesquisa e/ou extensão visa a relação entre teoria-prática, como possibilidade através da elaboração e execução de projetos que envolvam em sua essência o conhecimento construído ao longo do percurso realizado pelo educando nas séries do ensino integrado, ou seja, segundo Assunção (2015), “visa sistematizar os conhecimentos adquiridos pelos estudantes durante o desenvolvimento do curso, como também, oferecer vivência prática-profissional mediante aplicação dos conhecimentos em situações reais. Além disso, o projeto também propicia ao estudante o contato com o universo acadêmico da iniciação científica”.
 
 ## Tema
-Pandemia do COVID-19.
+Educação no contexto de pandemia do COVID-19.
 
-# Participantes
+# Desenvolvedores
 ### Rafael Cardoso
 [Git Hub](https://github.com/RafaelCardoso11)
 
@@ -18,18 +18,24 @@ Pandemia do COVID-19.
 ### Hévine Lópes
 [Git Hub](https://github.com/HevLop)
 
-### Juliana Xavier
+# Equipe
+## Rafael Cardoso
+
+## Erine Aguiar
+
+## Hévine Lopes
+
+## Rafael Barbosa
+
+## Juliana Xavier
+
+## Pedro Freitas
 
 # Frontend
-
 Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) versão 11.2.12.
 
-## Artificial intelligence
-O projeto utiliza uma IA(inteligencia artificial) responsavel por gerenciar e montar gráficos com base nos dados recolhidos por formulários. A IA armazena e processa os dados
-de acordo com seus padrôes pré-estabelecidos.
-
 ###  Documentação
-Em desenvolvimento
+O projeto objetiva coletar dados e elaborar uma análise baseada no que foi coletado de maneira a nos trazer conclusões sobre o ensino remoto que vêm sendo empregado como alternativa diante da necessidade de parada das aulas presenciais. O site é uma parte do trabalho, que também contará com um relatório elaborado pelos integrantes da equipe que trará uma síntese de todas as informações adquiridas, além da metodologia utilizada para a pesquisa, das considerações decorrentes da análise e das fontes usadas para o desnvolvimento e fundamentação da pesquisa. Em breve, disponibilizaremos o link para o trabalho final.
 
 ## Development server and install
 

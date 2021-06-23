@@ -25,6 +25,11 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    &:hover{
+                        transition: 200ms;
+                        opacity: .7;
+                       
+                    }
                     &.nav{
                         display: none;
                     }

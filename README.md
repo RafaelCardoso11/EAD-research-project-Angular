@@ -19,17 +19,19 @@ Educação no contexto de pandemia do COVID-19.
 [Git Hub](https://github.com/HevLop)
 
 # Equipe
-## Rafael Cardoso
+### Rafael Cardoso
 
-## Erine Aguiar
+### Erine Aguiar
 
-## Hévine Lopes
+### Hévine Lopes
 
-## Rafael Barbosa
+### Rafael Barbosa
 
-## Juliana Xavier
+### Juliana Xavier
 
-## Pedro Freitas
+### Pedro Freitas
+
+## Link do projeto: https://pesquisaensinoremoto.000webhostapp.com/
 
 # Frontend
 Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) versão 11.2.12.

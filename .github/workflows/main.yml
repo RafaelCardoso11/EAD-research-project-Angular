@@ -27,4 +27,4 @@ jobs:
         username:  ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
         server-dir: public_html/
-        local-dir:  ./dist/frontend/
+        local-dir:  dist/frontend/

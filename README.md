@@ -39,6 +39,7 @@ Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cl
 ###  Documentação
 O projeto objetiva coletar dados e elaborar uma análise baseada no que foi coletado de maneira a nos trazer conclusões sobre o ensino remoto que vêm sendo empregado como alternativa diante da necessidade de parada das aulas presenciais. O site é uma parte do trabalho, que também contará com um relatório elaborado pelos integrantes da equipe que trará uma síntese de todas as informações adquiridas, além da metodologia utilizada para a pesquisa, das considerações decorrentes da análise e das fontes usadas para o desnvolvimento e fundamentação da pesquisa. Em breve, disponibilizaremos o link para o trabalho final.
 
+
 ## Development server and install
 
 1. Para inicializar o projeto, installe o [NPM](https://www.npmjs.com/).

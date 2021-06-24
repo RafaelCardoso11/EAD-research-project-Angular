@@ -11,8 +11,6 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
         npm install -g @angular/cli
-        ng build --prod
-
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'

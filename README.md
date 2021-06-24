@@ -31,7 +31,7 @@ Educação no contexto de pandemia do COVID-19.
 
 ### Pedro Freitas
 
-## Link do projeto (deploy): https://pesquisaensinoremoto.000webhostapp.com/
+## Link do projeto (deploy): https://pesquisa-ensino-remoto.web.app/
 
 # Frontend
 Este projeto foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) versão 11.2.12.

@@ -10,6 +10,7 @@ import { ContentMoreAboutResearchViewComponent } from './components/viewTemplate
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { ContentGoalsResearchComponent } from './components/viewTemplates/content-goals-research/content-goals-research.component';
+import { SectionCommentsComponent } from './components/viewTemplates/section-comments/section-comments.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ContentGoalsResearchComponent } from './components/viewTemplates/conten
     FooterComponent,
     ContentHeaderViewComponent,
     ContentMoreAboutResearchViewComponent,
-    ContentGoalsResearchComponent
+    ContentGoalsResearchComponent,
+    SectionCommentsComponent
   ],
   imports: [
     BrowserModule,

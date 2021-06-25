@@ -81,6 +81,27 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .container-comments {
+        .container-cards-comments {
+         
+        
+            .textArea-comments {
+                font-size: 22rem;
+            }
+            footer {
+            
+              .author-comments {
+               
+              }
+              i {
+               
+              }
+            }
+          }
+        }
+
+}
 @media only screen and (max-width: 450px) {
     header {
         .header-container {

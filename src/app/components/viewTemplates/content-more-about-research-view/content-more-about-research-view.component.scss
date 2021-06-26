@@ -1,11 +1,10 @@
-@import '../../../colors/paleta.scss';
+@import "../../../colors/paleta.scss";
 .more-research {
     width: 100%;
     height: auto;
     font-size: 10rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     .container-research {
-        min-height: 100vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -19,7 +18,7 @@
             .img-container-research {
                 animation: containerOpacityX 2s 1s ease forwards;
                 transform: translateX(0);
-                min-height: 100vh;
+
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -36,7 +35,7 @@
             .container-research-objetivo {
                 animation: containerOpacityX 2s 1s ease forwards;
                 transform: translateX(0);
-                min-height: 100vh;
+
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
@@ -63,7 +62,7 @@
                     margin-left: auto;
                 }
                 .description-title {
-                    font-family: 'Raleway', sans-serif;
+                    font-family: "Raleway", sans-serif;
                     font-weight: 400;
                     text-indent: 70px;
                     line-height: 30px;

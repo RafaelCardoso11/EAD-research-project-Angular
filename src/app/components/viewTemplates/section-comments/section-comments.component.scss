@@ -27,7 +27,8 @@
     justify-items: center;
     grid-gap: 50px;
     grid-row-gap: 100px;
-    grid-template-columns: repeat(auto-fit, minmax(3px, 1fr));
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 70px 100px;
     .comments-cards {
       background-color: $white-color;
@@ -99,3 +100,4 @@
     }
   }
 }
+@import '../../../sizeResponsiveness/main.scss';

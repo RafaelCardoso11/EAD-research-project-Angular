@@ -25,10 +25,11 @@
       transition: 300ms;
       opacity: 0;
       animation: fadeOpacity 2s 1s forwards;
+      display: flex;
+      justify-content: center;
       margin: 20px;
       flex: 1 1 100px;
       max-width: 300px;
-    
       flex-wrap: wrap;
       height: 400px;
       .title-card {
@@ -50,11 +51,7 @@
         width: 100%;
         z-index: 2;
         margin-bottom: 15px;
-        max-height: 175px;
-      }
-      .img-1{
-        align-self: center;
-        width: 220px;
+        max-height: auto;
       }
       
     }

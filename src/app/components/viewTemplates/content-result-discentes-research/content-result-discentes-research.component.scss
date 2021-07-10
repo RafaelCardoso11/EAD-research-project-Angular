@@ -1,4 +1,134 @@
+@import "../../../colors/paleta.scss";
 .container-result-general{
-  height: 100vh;
-  background-color: antiquewhite;
+  font-size: 10rem;
+  .container-header {
+    padding: 50px;
+    .title-result {
+      font-size: 40rem;
+      font-family: "Poppins", Sans-serif;
+      color: $black-color;
+      text-align: center;
+      padding: 20px;
+    }
+    .description-result {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      text-indent: 70px;
+      line-height: 30px;
+      text-align: left;
+      font-size: 220%;
+      color: $black-color;
+    }
+  }
+  .container-graphics {
+    display: grid;
+    grid-template-areas: 
+    "side side menorSide "
+    "side side menorSide2"
+    "footer1 footer2 footer3";
+    grid-template-columns: repeat(3, 1fr);
+   
+    gap: 30px;
+    margin: 30px;
+  }
+}
+.graphics-items-side {
+  grid-area: side;
+  padding: 50px;
+  margin: 16px;                                
+  background-color: $gray-backgroud-color;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 0px #525050;
+  .header-card{
+    padding: 30px 10px;
+    .title-card{
+      text-align: center;
+      font-family: 'Poppins';
+      font-size: 25rem;
+    }
+  }
+  .footer-card-graphic{
+    padding: 50px 20px;
+    .description-card{
+      font-size: 16rem;
+      justify-self: center;
+      letter-spacing: 1px;
+      line-height: 20px;
+      color: $black-color;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+    }
+  }
+}
+.graphics-items-menorSide {
+  &:nth-child(1){
+    grid-area: menorSide;
+   
+  }
+  &:nth-child(2){
+    grid-area: menorSide2;
+  }
+  
+  margin: 16px;                                
+  background-color: $gray-backgroud-color;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 0px #525050;
+  .header-card{
+    padding: 30px 10px;
+    .title-card{
+      text-align: center;
+      font-family: 'Poppins';
+      font-size: 25rem;
+    }
+  }
+  .footer-card-graphic{
+    padding: 50px 20px;
+    .description-card{
+      font-size: 16rem;
+      letter-spacing: 1px;
+      line-height: 30px;
+      color: $black-color;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+    }
+  }
+}
+.graphics-items-footer {
+  background-color: $gray-backgroud-color;
+  padding: 20px;
+  &:nth-child(1){
+    grid-area: footer1;
+    
+  }
+  &:nth-child(2){
+    grid-area: footer2;
+  
+  }
+  &:nth-child(3){
+    grid-area: footer3;
+    height: 200px;
+  }
+  margin: 16px;                                
+ 
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 0px #525050;
+  .header-card{
+    padding: 30px 10px;
+    .title-card{
+      text-align: center;
+      font-family: 'Poppins';
+      font-size: 25rem;
+    }
+  }
+  .footer-card-graphic{
+    padding: 50px 20px;
+    .description-card{
+      font-size: 16rem;
+      letter-spacing: 1px;
+      line-height: 30px;
+      color: $black-color;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+    }
+  }
 }

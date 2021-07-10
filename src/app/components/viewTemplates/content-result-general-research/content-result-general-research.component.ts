@@ -39,14 +39,12 @@ export class ContentResultGeneralResearchComponent implements OnInit {
 
   //Grafico2
   public pieGrafico2Label: Label[] = [['Belém'], ['Ananindeua'], ['Marituba'], 'Outro'];
-  public pieGrafico2Data: SingleDataSet = [108, 46, 100, 3];
+  public barChartData: ChartDataSets[] = [{data: [108, 46, 100, 3], label: 'Município'},];
 
   //Grafico3
   public pieGrafico3Label: Label[] = [['Masculino'], ['Feminino']];
-  public barChartData: ChartDataSets[] = [
-    { data: [97, 64], label: 'Sexo' },
+  public pieGrafico3Data: SingleDataSet = [64, 97];
 
-  ];
 
 
 

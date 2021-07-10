@@ -11,8 +11,8 @@
       ensino, distribuídos da seguinte forma:
     </p>
   </header>
-  <main class="container-graphics">
-    <div class="graphics-items">
+  <main class="container-graphics"> 
+   <div class="graphics-items">  <!--  CARD 1 -->
       <header class="header-card">
         <h1 class="title-card">Por Instituição</h1>
       </header>
@@ -27,57 +27,53 @@
       </canvas>
       <footer class="footer-card-graphic">
         <p class="description-card">
-          Cerca de Com a suspensão das aulas presenciais provocada pela pandemia da
-          Covid-19, entrou em foco o ensino remoto que tem sua qualidade
-          influenciada por diversos fatores, como: disponibilidade de tempo,
-          condições socioeconômicas que são determinantes para o acesso aos
-          meios tecnológicos necessários
+          82,3% (107) dos discentes que paticiparam da pesquisa tem vínculos com instituições 
+          públicas, enquanto 17,7% (23) são vinculados a instituições particulares.
+          Com relação aos docentes pesquisados, 61,3% (19) trabalham em instituições de ensino públicas e
+          38,7% (12) trabalham em instituições privadas.
         </p>
       </footer>
     </div>
-    <div class="graphics-items">
+    <div class="graphics-items"> <!--  CARD 2 -->
       <header class="header-card">
         <h1 class="title-card">Por Município</h1>
       </header>
       <canvas
         baseChart
-        [data]="pieGrafico2Data"
-        [colors]="pieGraficoColors"
-        [labels]="pieGrafico2Label"
-        [chartType]="tipoGraficoPie"
-        [legend]="legend"
-      >
-      </canvas>
-      <footer class="footer-card-graphic">
-        <p class="description-card">
-          Com a suspensão das aulas presenciais provocada pela pandemia da
-          Covid-19, entrou em foco o ensino remoto que tem sua qualidade
-          influenciada por diversos fatores, como: disponibilidade de tempo,
-          condições socioeconômicas que são determinantes para o acesso aos
-          meios tecnológicos necessários
-        </p>
-      </footer>
-    </div>
-    <div class="graphics-items">
-      <header class="header-card">
-        <h1 class="title-card">Por Sexo</h1>
-      </header>
-      <canvas
-        baseChart
         [datasets]="barChartData"
         [colors]="pieGraficoColors"
-        [labels]="pieGrafico3Label"
+        [labels]="pieGrafico2Label"
         [chartType]="tipoGraficoBar"
         [legend]="legend"
       >
       </canvas>
       <footer class="footer-card-graphic">
         <p class="description-card">
-          Com a suspensão das aulas presenciais provocada pela pandemia da
-          Covid-19, entrou em foco o ensino remoto que tem sua qualidade
-          influenciada por diversos fatores, como: disponibilidade de tempo,
-          condições socioeconômicas que são determinantes para o acesso aos
-          meios tecnológicos necessários
+          77,4%(24) dos docentes participantes da pesquisa moram em Belém, 19,4%(6) em
+          Ananindeua e 3,2%(1) em Marituba. Quanto aos estudantes, 64,6%(84) residem em
+          Belém, 30,8%(40) em Ananindeua, 2,3%(3) em Marituba e 2,3%(3) em outro município
+          da região metropolitana de Belém.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items"> <!--  CARD 3 -->
+      <header class="header-card">
+        <h1 class="title-card">Por Sexo</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="pieGrafico3Data"
+        [colors]="pieGraficoColors"
+        [labels]="pieGrafico3Label"
+        [chartType]="tipoGraficoPie"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          41,9%(13) dos docentes participantes são do sexo feminino, enquanto os outros
+          58,1%(18) são do sexo masculino. As proporções se invertem quando chegamos 
+          aos discentes: 64,6% (84) são do sexo feminino e 35,4% são do sexo masculino.
         </p>
       </footer>
     </div>

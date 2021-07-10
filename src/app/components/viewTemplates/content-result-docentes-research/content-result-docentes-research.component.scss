@@ -1,4 +1,135 @@
-.container-result-docentes{
-  height: 100vh;
-  background-color: aqua;
+@import "../../../colors/paleta.scss";
+.container-result-docentes {
+  background-color: $gray-backgroud-color;
+  font-size: 15rem;
+  
+  .container-header {
+    padding: 50px;
+    .title-result {
+      font-size: 40rem;
+      font-family: "Poppins", Sans-serif;
+      color: $black-color;
+      text-align: center;
+      padding: 20px;
+    }
+    .description-result {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      text-indent: 70px;
+      line-height: 30px;
+     
+      text-align: left;
+      font-size: calc(220% - 10rem);
+      color: $black-color;
+    }
+  }
+  .container-graphics {
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+      "header1 header2 header3"
+      "side side menorSide1"
+      "side side menorSide2";
+    grid-template-columns: repeat(3, 400px);
+    gap: 30px;
+    
+  }
+}
+.graphics-items-header {
+  &:nth-child(1){
+    grid-area: header1;
+  }
+  &:nth-child(2){
+    grid-area: header2;
+  }
+  &:nth-child(3){
+    grid-area: header3;
+  }
+  padding: 50px;
+  margin: 16px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 0px #525050;
+  .header-card {
+    padding: 30px 10px;
+    .title-card {
+      text-align: center;
+      font-family: "Poppins";
+      font-size: 25rem;
+    }
+  }
+  .footer-card-graphic {
+    padding: 50px 20px;
+    .description-card {
+      font-size: 16rem;
+      line-height: 20px;
+      color: $black-color;
+      letter-spacing: 1px;
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+    }
+  }
+}
+.graphics-items-side {
+  grid-area: side;
+  padding: 50px;
+  margin: 16px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 0px #525050;
+  .header-card {
+    padding: 30px 10px;
+    .title-card {
+      text-align: center;
+      font-family: "Poppins";
+      font-size: 25rem;
+    }
+  }
+  .footer-card-graphic {
+    padding: 50px 20px;
+    .description-card {
+      font-size: 16rem;
+      color: $black-color;
+      text-align: center;
+       letter-spacing: 1px;
+       line-height: 20px;
+      font-family: "Raleway", sans-serif;
+    }
+  }
+  
+  .graphics-items-menorSide {
+    background-color: #fff;
+   
+    &:nth-child(1){
+      grid-area: menorSide1;
+
+    }&:nth-child(2){
+      grid-area: menorSide2;
+    }
+    margin: 16px;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 0px #525050;
+    .header-card {
+      padding: 30px 10px;
+      .title-card {
+        text-align: center;
+        font-family: "Poppins";
+        font-size: 25rem;
+      }
+    }
+    .footer-card-graphic {
+      padding: 50px 20px;
+
+      .description-card {
+        color: $black-color;
+        text-align: center;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 1px;
+        line-height: 20px;
+      }
+    }
+  }
+  
+ 
 }

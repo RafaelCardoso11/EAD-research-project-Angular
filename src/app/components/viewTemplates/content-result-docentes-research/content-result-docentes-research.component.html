@@ -1,3 +1,158 @@
 <section class="container-result-docentes">
-  
+  <header class="container-header">
+    <h1 class="title-result">| Resultados dos Docentes|</h1>
+    <p class="description-result">
+      Com base nas respostas de <strong>31 docentes</strong>, obtidas através dos formulários foram elaborados os seguintes
+      gráficos, levando em consideração fatores como saúde mental, variação do desempenho profissional
+      em comparção ao período anterior à pandemia, disponibilidade de recursos, como dispositivos eletrônicos,
+      treinamento e etc. Além disso, nesta seção apresentaremos a perspectiva do professor
+      em relação ao interesse do aluno.
+    </p>
+  </header>
+  <main class="container-graphics">
+    <div class="graphics-items-header">
+      <!--  CARD 1 -->
+      <header class="header-card">
+        <h1 class="title-card">Saúde Mental</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="pieGrafico1Data"
+        [colors]="pieGraficoColors"
+        [labels]="pieGrafico1Label"
+        [chartType]="tipoGraficoDonut"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          De acordo com o questionário, 21(67,7%) professores sentem que tiveram
+          sua saúde mental afetada e 10(32,3%) professores responderam que não.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-header">
+      <!--  CARD 2 -->
+      <header class="header-card">
+        <h1 class="title-card">Desempenho</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="pieGrafico2Data"
+        [colors]="pieGraficoColors"
+        [labels]="pieGrafico2Label"
+        [chartType]="tipoGraficoPie"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Quanto ao índice de produtividade e desempenho profissional, 17(54,8%)
+          afirmaram que não sentiram impacto quanto a sua atuação profissional,
+          enquanto os 14(45,2%) restantes afirmaram sentir impacto em sua atuação
+          profissional.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-header">
+      <!--  CARD 3 -->
+      <header class="header-card">
+        <h1 class="title-card">Treinamento</h1>
+      </header>
+      <canvas
+        baseChart
+        [datasets]="grafico3sets"
+        [data]="pieGrafico3Data"
+        [colors]="lineChartColors"
+        [labels]="pieGrafico3Label"
+        [chartType]="tipoGraficoLine"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Acerca da assistência oferecida pela instituição ligada ao docente, 22(71%)
+          afirmaram receber treinamento para a aplicação do Ensino Remoto,
+          enquanto os 9(29%) restantes afirmaram não receber treinamento.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-menorSide">
+      <!--  CARD 4 -->
+      <header class="header-card">
+        <h1 class="title-card">Dispositivos</h1>
+      </header>
+      <canvas
+        baseChart
+        [datasets]="grafico4sets"
+        [data]="grafico4Data"
+        [colors]="pieGraficoColors"
+        [labels]="grafico4Label"
+        [chartType]="tipoGraficoBar"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Acerca dos dispositivos utilizados para a ministração de aulas
+          remotas, 29 (93,5%) afirmaram possuir Telefone Celular, 9 (29%)
+          afirmaram possuir Tablet, 26 (83,9%) afirmaram possuir Notebook e 8
+          (25,8%) afirmaram possuir computador Desktop.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-side">
+      <!--  CARD 5 -->
+      <header class="header-card">
+        <h1 class="title-card">
+          Desinteresse dos alunos e Efeito nos Professores
+        </h1>
+      </header>
+      <canvas
+        baseChart
+        [datasets]="grafico5sets"
+        [colors]="pieGraficoColors"
+        [labels]="grafico5Label"
+        [chartType]="tipoGraficoBar"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Quanto ao interesse dos discentes acerca das aulas remotas, 22(71%)
+          docentes perceberam grande diferença, 7(22,6%) perceberam pouca
+          diferença, e 2(6,5%) não perceberam nenhuma diferença no interesse dos
+          discentes. Além disso, 11(35,5%) afirmaram que a diferença de
+          interesse dos alunos afetou seu desempenho de forma razoável, 7(22,6%)
+          afirmaram que afetou muito seu desempenho quanto a mudança de
+          interesse dos alunos, 9(29%) afirmaram não sentirem seu trabalho
+          afetado em relação ao interesse dos alunos e os 4(12,9%) restantes
+          afirmaram sentir pouco impacto em seu trabalho.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-menorSide">
+      <!--  CARD 6 -->
+      <header class="header-card">
+        <h1 class="title-card">Area de atuação</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="grafico6Data"
+        [colors]="pieGraficoColors"
+        [labels]="grafico6Label"
+        [chartType]="tipoGraficoPie"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Sobre a área de atuação, 14(45,2%) afirmaram atuar no nível
+          fundamental, 12(38,7%) afirmaram atuar no nível médio, 4(12,9%)
+          afirmaram atuar no nível superior e 1(3,2%) afirmou atuar no nível
+          infantil.
+        </p>
+      </footer>
+    </div>
+  </main>
 </section>

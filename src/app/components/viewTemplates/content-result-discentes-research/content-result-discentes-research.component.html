@@ -1,4 +1,176 @@
 <section class="container-result-general">
-
-  
+  <header class="container-header">
+    <h1 class="title-result">| Resultados de Discentes |</h1>
+    <p class="description-result">
+      Nesta seção, demonstraremos de forma específica os dados obtidos com o
+      formulários realizado pelos <strong>130 estudantes </strong> que fizeram
+      parte da pesquisa, disponibilizando informações sobre suas realidades e
+      experiências com o ensino remoto, e, nos permitindo assim enxergar o
+      cenário geral no qual estes estão inseridos, além dos desafios e
+      perspectivas que esta modalidade trouxe consigo.
+    </p>
+  </header>
+  <main class="container-graphics">
+    <div class="graphics-items-side">
+      <header class="header-card">
+        <h1 class="title-card">Saúde Mental & Desempenho</h1>
+      </header>
+      <canvas
+        baseChart
+        [datasets]="graficoMaior1"
+        [colors]="pieGraficoColors"
+        [labels]="graficoMaior1Label"
+        [chartType]="tipoGraficoBar"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Sobre a saúde mental, 82,3%(107) dos discentes afirmou que sua saúde
+          mental foi afetada durante esta dinâmica de ensino remoto, enquanto os
+          17,7%(26) restantes afirmaram que não sentiram sua saúde mental ser
+          afetada. Em relação à produtividade e aprendizado, 80%(104) afirmaram
+          sentir seu aprendizado e produtividade diminuir ao comparar com o
+          período presencial, enquanto 20%(26) afirmaram não sentir esta
+          diminuição.
+        </p>
+      </footer>
+      <header class="header-card">
+        <h1 class="title-card">Avaliação do Ensino Remoto</h1>
+      </header>
+      <canvas
+        baseChart
+        [datasets]="graficoMaior2"
+        [colors]="pieGraficoColors"
+        [labels]="graficoMaiorLabel"
+        [chartType]="tipoGraficoBar"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Acerca da experiência com o Ensino Remoto ofertado pela sua
+          instituição de ensino, 33,8%(44) afirmaram que sua experiência com o Ensino
+          Remoto foi boa, 33,8%(44) afirmaram que sua experiência com o Ensino Remoto
+          foi regular, 11,5%(15) afirmaram que sua experiência com o Ensino Remoto foi
+          ótima, 9,2%(12) afirmaram que sua experiência foi péssima, 6,9%(9) afirmaram que
+          sua experiência foi ruim, enquanto os 4,6%(6) restantes afirmaram que sua
+          experiência foi excelente.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-menorSide">
+      <header class="header-card">
+        <h1 class="title-card">Exerce uma profissão</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="graficoMenor2Data"
+        [colors]="pieGraficoColors"
+        [labels]="graficoMenor2Label"
+        [chartType]="tipoGraficoPie"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          63,8%(83) dos alunos respondeu que não trabalha ou exerce alguma
+          profissão, enquanto 36,2%(47) destes estudantes respondeu que tem de
+          conciliar escola com o trabalho, tarefa facilitada com a implementação
+          do ensino remoto nas instituições de educação.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-menorSide">
+      <header class="header-card">
+        <h1 class="title-card">Horas de Estudo</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="graficoMenor1Data"
+        [colors]="pieGraficoColors"
+        [labels]="graficoMenor1Label"
+        [chartType]="tipoGraficoDonut"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Sobre a quantidade de tempo disponível para os estudos, 40%(52)
+          afirmou possuir de 2 a 4 horas diárias reservadas para os estudos,
+          27,7%(36) afirmou possuir de 1 a 2 horas diárias para suas atividades
+          acadêmicas, 18,5%(24) afirmou possuir mais de 5 horas para os estudos,
+          e 13,8%(18) afirmou possuir menos de 1 hora diária para os estudos.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-footer">
+      <header class="header-card">
+        <h1 class="title-card">Escolaridade</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="graficoBottom1Data"
+        [colors]="pieGraficoColors"
+        [labels]="graficoBottom1Label"
+        [chartType]="tipoGraficoPie"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Acerca da escolaridade: 62,3%(81) dos estudantes pertencem ao Ensino
+          Médio, 31,5%(41) ao Ensino Superior e 6,2%(8) ao Ensino Fundamental.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-footer">
+      <header class="header-card">
+        <h1 class="title-card">Auxílios Ofertados</h1>
+      </header>
+      <canvas
+        baseChart
+        [datasets]="graficoBottom3Datasets"
+        [data]="graficoBottom2"
+        [colors]="lineChartColors"
+        [labels]="graficoBottom2Label"
+        [chartType]="tipoGraficoLine"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          48,5%(63) dos alunos afirmaram que a instituição de ensino no qual
+          estão inseridos não ofertou nenhuma forma de auxílio para a obtenção
+          de equipamento para o acompanhamento das aulas, enquanto 40%(52)
+          destes afirmou que a instituiçãom ofertas em dinheiro para a compra de
+          equipamentos e os 11,5%(15) restantes afirmaram que a sua instituição
+          de ensino ofereceu auxílio na forma de computadores/tablets.
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items-footer">
+      <header class="header-card">
+        <h1 class="title-card">Qualidade da Conexão</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="graficoBottom3Data"
+        [colors]="pieGraficoColors"
+        [labels]="graficoBottom3Label"
+        [chartType]="tipoGraficoDonut"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Sobre o acesso à internet, observa-se que 60,8%(79) afirmam possuir
+          acesso à internet de banda larga fixa de cunho estável, enquanto
+          32,3%(42) afirmam possuir acesso à banda larga fixa, porém instável.
+          Os 6,9%(10) restantes afirmaram não possuir acesso à internet de banda
+          larga fixa.
+        </p>
+      </footer>
+    </div>
+  </main>
 </section>

@@ -1,0 +1,85 @@
+<section class="container-result-General">
+  <header class="container-header">
+    <h1 class="title-result">| Resultados |</h1>
+    <p class="description-result">
+      Os gráficos a seguir são resultado da aplicação dos formulários que foram
+      disponibilizados aqui no site e divulgados para o círculo de contatos dos
+      integrantess da equipe que se enquadram no contexto do ensino remoto na
+      região metropolitana de Belém. Ao final do período de pesquisa,
+      <strong>161 pessoas</strong>
+      responderam, contando alunos e professores das redes pública e particular de
+      ensino, distribuídos da seguinte forma:
+    </p>
+  </header>
+  <main class="container-graphics">
+    <div class="graphics-items">
+      <header class="header-card">
+        <h1 class="title-card">Por Instituição</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="pieGrafico1Data"
+        [colors]="pieGraficoColors"
+        [labels]="pieGrafico1Label"
+        [chartType]="tipoGraficoPie"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Cerca de Com a suspensão das aulas presenciais provocada pela pandemia da
+          Covid-19, entrou em foco o ensino remoto que tem sua qualidade
+          influenciada por diversos fatores, como: disponibilidade de tempo,
+          condições socioeconômicas que são determinantes para o acesso aos
+          meios tecnológicos necessários
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items">
+      <header class="header-card">
+        <h1 class="title-card">Por Município</h1>
+      </header>
+      <canvas
+        baseChart
+        [data]="pieGrafico2Data"
+        [colors]="pieGraficoColors"
+        [labels]="pieGrafico2Label"
+        [chartType]="tipoGraficoPie"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Com a suspensão das aulas presenciais provocada pela pandemia da
+          Covid-19, entrou em foco o ensino remoto que tem sua qualidade
+          influenciada por diversos fatores, como: disponibilidade de tempo,
+          condições socioeconômicas que são determinantes para o acesso aos
+          meios tecnológicos necessários
+        </p>
+      </footer>
+    </div>
+    <div class="graphics-items">
+      <header class="header-card">
+        <h1 class="title-card">Por Sexo</h1>
+      </header>
+      <canvas
+        baseChart
+        [datasets]="barChartData"
+        [colors]="pieGraficoColors"
+        [labels]="pieGrafico3Label"
+        [chartType]="tipoGraficoBar"
+        [legend]="legend"
+      >
+      </canvas>
+      <footer class="footer-card-graphic">
+        <p class="description-card">
+          Com a suspensão das aulas presenciais provocada pela pandemia da
+          Covid-19, entrou em foco o ensino remoto que tem sua qualidade
+          influenciada por diversos fatores, como: disponibilidade de tempo,
+          condições socioeconômicas que são determinantes para o acesso aos
+          meios tecnológicos necessários
+        </p>
+      </footer>
+    </div>
+  </main>
+</section>

@@ -11,7 +11,10 @@ import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { ContentGoalsResearchComponent } from './components/viewTemplates/content-goals-research/content-goals-research.component';
 import { SectionCommentsComponent } from './components/viewTemplates/section-comments/section-comments.component';
-
+import { ContentResultGeneralResearchComponent } from './components/viewTemplates/content-result-general-research/content-result-general-research.component';
+import { ContentResultDocentesResearchComponent } from './components/viewTemplates/content-result-docentes-research/content-result-docentes-research.component';
+import { ContentResultDiscentesResearchComponent } from './components/viewTemplates/content-result-discentes-research/content-result-discentes-research.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -21,13 +24,18 @@ import { SectionCommentsComponent } from './components/viewTemplates/section-com
     ContentHeaderViewComponent,
     ContentMoreAboutResearchViewComponent,
     ContentGoalsResearchComponent,
-    SectionCommentsComponent
+    SectionCommentsComponent,
+    ContentResultGeneralResearchComponent,
+    ContentResultDocentesResearchComponent,
+    ContentResultDiscentesResearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule
+   
    
   ],
   providers: [],

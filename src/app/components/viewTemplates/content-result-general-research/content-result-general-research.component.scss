@@ -1,0 +1,56 @@
+@import "../../../colors/paleta.scss";
+.container-result-General {
+  background-color: $red-primary-Color;
+  font-size: 10rem;
+  height: 100%;
+  .container-header {
+    padding: 50px;
+    .title-result {
+      font-size: 40rem;
+      font-family: "Poppins", Sans-serif;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .description-result {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      text-indent: 70px;
+      line-height: 30px;
+      text-align: left;
+      font-size: 220%;
+      color: white;
+    }
+  }
+  .container-graphics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  
+   
+    margin: 30px;
+    .graphics-items {
+    
+      margin: 16px;                                
+      background-color: $white-color;
+      border-radius: 20px;
+      box-shadow: 2px 2px 4px 0px #525050;
+      .header-card{
+        padding: 30px 10px;
+        .title-card{
+          text-align: center;
+          font-family: 'Poppins';
+          font-size: 25rem;
+        }
+      }
+      .footer-card-graphic{
+        padding: 50px 20px;
+        .description-card{
+          font-size: 16rem;
+          color: $black-color;
+          text-align: center;
+          font-family: 'Raleway', sans-serif;
+        }
+      }
+    }
+  }
+}
